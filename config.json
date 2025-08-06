@@ -1,0 +1,37 @@
+{
+  "Modes": {
+    "Config": {
+      "Interval": 0,
+      "CCManager": false,
+      "MaxRoutines": 300,
+      "SolveCaptcha": false,
+      "CaptchaRetry": 2,
+      "RateLimit": true
+    },
+    "Net": {
+      "JA3": "772,4865-4866-4867-49195-49199-49196-49200-52393-52392-49171-49172-156-157-47-53,13-16-17513-65281-35-23-43-27-5-65037-0-18-45-51-10-11,29-23-30-25-24,0-1-2",
+      "Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+      "Proxy": "",
+      "WebKit": "537.36",
+      "Redirect": false,
+      "TimeOut": 60
+    },
+    "Discord": {
+      "Ver": 2.2,
+      "CapApi": ["", ""],
+      "Presence": ["online", "dnd", "idle", "offline", "unkown"],
+      "Message": [
+        {
+          "Title": "# うようよ帝国万歳🙌",
+          "Body": "> 今すぐ参加",
+          "Link": "> https://discord.gg/SSXdSf85VM"
+        },
+        {
+          "Title": "# 天皇陛下万歳🙌",
+          "Body": "> 天皇弥栄",
+          "Link": "> https://discord.gg/SSXdSf85VM"
+        }
+      ]
+    }
+  }
+}
