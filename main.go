@@ -25,6 +25,7 @@ var (
 type FuncMap map[int]func()
 
 func main() {
+	Mod.Cls()
 	in := initialize()
 	task.Return(0)
 	LoadChoice(in)

@@ -2,8 +2,6 @@ package modules
 
 import (
 	"fmt"
-	"os"
-	"os/exec"
 	"reflect"
 	"sort"
 	"strconv"
@@ -115,8 +113,5 @@ func PrintStruct(data interface{}) {
 }
 
 func (m *Modules) Cls() {
-	var cmd *exec.Cmd
-	cmd = exec.Command("cmd", "/c", "cls")
-	cmd.Stdout = os.Stdout
-	cmd.Run()
+	m.ShellClear()
 }
